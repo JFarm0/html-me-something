@@ -61,6 +61,7 @@ body {
 .center {
     text-align: center;
 }
+
 .glow {
 	/* font-size: xx-large; */
 	color:white;
@@ -80,7 +81,10 @@ body {
 
 div {
 	border: 5px ridge lime;
-	margin: 15px;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 45px;
+	margin-left: 15px;
 	padding: 15px;
 	text-align: center;
 }
@@ -92,7 +96,12 @@ h1 {
 	margin-bottom:30px;
 }
 
-h2, h3, p {
+h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h3, p {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
@@ -123,8 +132,16 @@ figure {
 	margin-bottom: 30px;
 }
 
+section {
+	margin-bottom:45px;
+}
+
 .selection {
 	display: inline;
+}
+
+#intro {
+	margin-bottom: 45px;
 }
 
 #egg {
